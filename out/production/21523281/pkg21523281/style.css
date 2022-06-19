@@ -1,0 +1,38 @@
+.body{
+    -fx-background-color:#3a4764;
+}
+.angka{
+    -fx-background-color:#eae3dc;
+    -fx-font-color: #3a4764;
+    -fx-box-sizing: border-box;
+    -fx-margin: 0;
+    -fx-padding : 0;
+    -fx-font-size : 32px;
+
+}
+
+#textField{
+    -fx-box-sizing: border-box;
+    -fx-margin: 0;
+    -fx-padding : 0;
+    -fx-background-color:white;
+    -fx-font-color : white;
+    -fx-font-size : 32px;
+}
+
+.reset {
+    -fx-background-color : #637097;
+
+}
+
+.samaDengan {
+    -fx-background-color : #d03f2f;
+    -fx-font-color : white;
+}
+
+.tampilan {
+    -fx-background-color:white;
+    -fx-box-sizing: border-box;
+        -fx-margin: 0;
+        -fx-padding : 0;
+}

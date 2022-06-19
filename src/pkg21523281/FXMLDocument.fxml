@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="346.0" prefWidth="458.0" styleClass="body" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg21523281.FXMLDocumentController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#182034" height="262.0" layoutX="14.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="437.0" />
+      <Button fx:id="button1" layoutX="22.0" layoutY="81.0" mnemonicParsing="false" onAction="#handleButton1" prefHeight="51.0" prefWidth="90.0" styleClass="angka" stylesheets="@style.css" text="1" textFill="#3a4764">
+         <font>
+            <Font name="Microsoft Sans Serif" size="34.0" />
+         </font></Button>
+      <Button fx:id="button2" layoutX="132.0" layoutY="81.0" mnemonicParsing="false" onAction="#handleButton2" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="2" textFill="#3a4764" />
+      <Button fx:id="button3" layoutX="242.0" layoutY="81.0" mnemonicParsing="false" onAction="#handleButton3" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="3" textFill="#3a4764" />
+      <Button fx:id="button4" layoutX="22.0" layoutY="147.0" mnemonicParsing="false" onAction="#handleButton4" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="4" textFill="#3a4764" />
+      <Button fx:id="button5" layoutX="132.0" layoutY="146.0" mnemonicParsing="false" onAction="#handleButton5" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="5" textFill="#3a4764" />
+      <Button fx:id="button6" layoutX="242.0" layoutY="146.0" mnemonicParsing="false" onAction="#handleButton6" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="6" textFill="#3a4764" />
+      <Button fx:id="button7" layoutX="22.0" layoutY="214.0" mnemonicParsing="false" onAction="#handleButton7" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="7" textFill="#3a4764" />
+      <Button fx:id="button8" layoutX="132.0" layoutY="214.0" mnemonicParsing="false" onAction="#handleButton8" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="8" textFill="#3a4764" />
+      <Button fx:id="button9" layoutX="242.0" layoutY="214.0" mnemonicParsing="false" onAction="#handleButton9" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="9" textFill="#3a4764" />
+      <Button fx:id="buttonPlus" layoutX="22.0" layoutY="277.0" mnemonicParsing="false" onAction="#handleButtonPlus" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="+" textFill="#3a4764" />
+      <Button fx:id="button0" layoutX="132.0" layoutY="277.0" mnemonicParsing="false" onAction="#handleButton0" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="0" textFill="#3a4764" />
+      <Button fx:id="buttonMin" layoutX="242.0" layoutY="277.0" mnemonicParsing="false" onAction="#handleButtonKurang" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="-" textFill="#3a4764" />
+      <Button fx:id="buttonClear" layoutX="352.0" layoutY="81.0" mnemonicParsing="false" onAction="#handleButtonHapus" prefHeight="51.0" prefWidth="90.0" text="C" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+         <styleClass>
+            <String fx:value="angka" />
+            <String fx:value="reset" />
+         </styleClass>
+      </Button>
+      <Button fx:id="buttonKali" layoutX="352.0" layoutY="146.0" mnemonicParsing="false" onAction="#handleButtonKali" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="X" textFill="#3a4764" />
+      <Button fx:id="buttonBagi" layoutX="352.0" layoutY="214.0" mnemonicParsing="false" onAction="#handleButtonBagi" prefHeight="51.0" prefWidth="90.0" styleClass="angka" text="/" textFill="#3a4764" />
+      <Button fx:id="buttonPangkat" layoutX="352.0" layoutY="277.0" mnemonicParsing="false" onAction="#handleButtonSamaDengan" prefHeight="51.0" prefWidth="90.0" text="=" textFill="WHITE">
+         <styleClass>
+            <String fx:value="angka" />
+            <String fx:value="samaDengan" />
+         </styleClass></Button>
+      <TextField id="textField" fx:id="textField" alignment="CENTER_RIGHT" layoutX="14.0" layoutY="14.0" prefHeight="51.0" prefWidth="437.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <TextField fx:id="tampilan" layoutX="14.0" layoutY="14.0" styleClass="tampilan" />
+   </children>
+</AnchorPane>
